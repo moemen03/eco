@@ -13,11 +13,15 @@
     .form-control {
         @apply border border-slate-300 px-2 py-1 rounded outline-0;
     }
+
+    .grid-row{
+        @apply grid grid-cols-12 gap-5 max-md:px-16 pb-4
+    }
 }
 
 /* Start Basic Style */
 ::selection {
-    background-color: #09c;
+    background-color: rgb(0, 204, 116);
     color: white;
 }
 html {
@@ -27,11 +31,13 @@ html {
 
 body {
     font-family: "Outfit", sans-serif;
-    color: rgb(12, 67, 104);
+    color: rgb(1, 133, 76);
+
+
 }
 
 .active {
-    color: #09c;
+    color: rgb(0, 204, 116);
     font-weight: 900;
 }
 
@@ -42,7 +48,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-    box-shadow: 0px 0px 0px 1px rgba(0, 153, 204, 0.479);
+    box-shadow: 0px 0px 0px 1px rgba(1, 133, 76, 0.5);
 }
 
 .modal {
@@ -69,7 +75,7 @@ input[type="range"]::-webkit-slider-thumb {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #09c;
+    background-color: rgb(0, 204, 116);
 }
 
 /* End Basic Style */
@@ -82,11 +88,15 @@ body::-webkit-scrollbar {
     background-color: #f0f3f2;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(3, 130, 172);
+    background-color: rgb(1, 133, 76);
     border-radius: 20px;
     border: 3px solid #f0f3f2;
 }
 /*  End scroll style */
+
+
+
+
 
 /* Start Category Slider */
 body:has(.categorySlider .swiper-button-next:hover)
@@ -102,9 +112,14 @@ body:has(.categorySlider .swiper-button-prev:hover)
 }
 /* End Category Slider */
 
+
+
+
+
+
 /* Start Loading */
 .preloader {
-    --hue: 195;
+    --hue: 110;
     --bg: hsl(var(--hue), 10%, 90%);
     --fg: hsl(var(--hue), 10%, 10%);
     --primary: hsl(var(--hue), 100%, 40%);
@@ -168,6 +183,10 @@ body:has(.categorySlider .swiper-button-prev:hover)
     transition: stroke var(--trans-dur);
 }
 
+
+
+
+
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -178,6 +197,10 @@ body:has(.categorySlider .swiper-button-prev:hover)
         stroke: hsla(var(--hue), 10%, 90%, 0.1);
     }
 }
+
+
+
+
 
 /* Animations */
 @keyframes msg {
