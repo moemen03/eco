@@ -27,9 +27,9 @@ export default {
                     "rgba(145, 158, 171, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, 0.14) 0px 4px 5px 0px, rgba(145, 158, 171, 0.12) 0px 1px 10px 0px",
             },
             colors: {
-                primary: "#09c",
-                darkPrimary: "rgb(8, 47, 73)",
-                lightPrimary: "rgb(2 173 227)",
+                primary: "rgb(0, 204, 116)",
+                darkPrimary: "rgb(1, 133, 76)",
+                lightPrimary: "rgb(0, 200, 140)",
                 light: "#f0f3f2",
                 rating: "#ffc908",
             },
