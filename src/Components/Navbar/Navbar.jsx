@@ -50,7 +50,7 @@ export default function Navbar() {
                                 }}
                                 to="/"
                             >
-                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i className="fa-brands fa-opencart text-primary mr-2"></i>
                                 <span>FreshCart</span>
                             </Link>
                         </h1>
