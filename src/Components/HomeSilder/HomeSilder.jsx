@@ -9,7 +9,7 @@ import styles from "./HomeSlider.module.css";
 
 export default function HomeSilder() {
     const silderImages = [
-        { img: image1, id: 1 },
+        { img: image4, id: 1 },
         { img: image2, id: 2 },
         { img: image3, id: 3 },
     ];
