@@ -243,7 +243,11 @@ export default function Navbar() {
                                     </li>
                                 </>
                             ) : (
-                                ""
+                                 <li>
+                                        <span className="cursor-pointer" onClick={logOut}>
+                                            LogOut
+                                        </span>
+                                    </li>
                             )}
                         </ul>
                     </div>
