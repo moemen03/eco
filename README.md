@@ -21,7 +21,7 @@ Welcome to **FreshCart**! This vibrant sample application showcases a dynamic E-
 
 ## Live Demo 🔗
 
-Explore the live demo here: [FreshCart Demo](https://e-commerce-orpin-rho.vercel.app/)
+Explore the live demo here: [FreshCart Demo](https://eco-iota-amber.vercel.app/)
 
 ## Detailed Explanation of Pages 📖
 
